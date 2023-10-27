@@ -7,6 +7,7 @@ public class Main{
     static float user_weight;
     static float user_height;
     static double user_bmi;
+    static short user_goal;
 
     Scanner input; //input field
 
@@ -35,12 +36,36 @@ public class Main{
         h = h*0.30; //Converting foot to meter 
         return(w/(h*h));
     }
+
+    void fitnessGoal(){
+       System.out.println("Enter your fitness Goal: \n 1 for Weight loss \n 2 for Weight gain  \n 3 for General fitness");
+        user_goal = input.nextShort();
+
+        switch (user_goal) {
+            case 1:
+                System.out.println("Weight Loss");
+                break;
+            case 2:
+                System.out.println("Weight Gain");
+                break;
+            case 3:
+                System.out.println("General Fitness");
+                break;
+
+            default:
+                System.out.println("Select in respective goal assigned numbers: 1, 2, 3");
+                break;
+        }
+    }
 public static void main(String st[]){
     Main main = new Main(); //Decalring object
 
     main.userinfo();
     user_bmi = main.bmiCal(user_weight, user_height);
-    System.out.printf("Your BMI is: %.2f", user_bmi);
+        System.out.printf("Your BMI is: %.2f", user_bmi);
+
+        System.out.println("\n----Step 2----");
+    main.fitnessGoal();
 }
 
 }

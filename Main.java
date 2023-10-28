@@ -7,7 +7,9 @@ public class Main{
     static float user_weight;
     static float user_height;
     static double user_bmi;
+
     static short user_goal;
+    static short user_fitlevel;
 
     Scanner input; //input field
 
@@ -57,6 +59,28 @@ public class Main{
                 break;
         }
     }
+
+    void fitnessLevel(){
+        System.out.println("What is your fitness level: \n1 for Begginer\n2 for Intermediate \n3 for Advance");
+        user_fitlevel = input.nextShort();
+        switch (user_fitlevel) {
+            case 1:
+                System.out.println("Begginer");
+                break;
+            
+            case 2:
+                System.out.println("Intermediate");
+                break;
+            
+                case 3:
+                System.out.println("Advance");
+                break;
+                
+                default:
+                System.out.println("Select a valid option from 1,2,3");
+                break;
+        }
+    }
 public static void main(String st[]){
     Main main = new Main(); //Decalring object
 
@@ -66,6 +90,9 @@ public static void main(String st[]){
 
         System.out.println("\n----Step 2----");
     main.fitnessGoal();
+
+        System.out.println("\n----Step 3----");
+    main.fitnessLevel();
 }
 
 }

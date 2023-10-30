@@ -9,7 +9,7 @@ This is your personal 'virtual' coach, which will ask you some questions related
 We are Core Java Developer 
 
 #### 🔗 Links
-[![Vinit71](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/Vinit71/) [![MayankDevil](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/MayankDevil/) [![Download](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Vinit71/FitForge/archive/refs/heads/main.zip)
+[![Vinit71](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/Vinit71/) [![MayankDevil](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/MayankDevil/) [![Download](https://img.shields.io/badge/Download-1DA1F2?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Vinit71/FitForge/archive/refs/heads/main.zip)
 
 #### 🤔 Features
 

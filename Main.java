@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
-public class Main{
+public class Main
+{
     // Variables
     String user_name;
     short user_age;
@@ -13,12 +14,17 @@ public class Main{
 
     Scanner input; //input field
 
-
-    Main(){
+    /*
+        [ constructor ]
+    */ 
+    Main()
+    {
         input = new Scanner(System.in);
     }
 
-    //User Info
+    /*
+        User Info
+    */
     void userinfo(){
         System.out.println("Enter your name: ");
         user_name = input.nextLine();
@@ -33,13 +39,17 @@ public class Main{
         user_height = input.nextFloat();
     }
 
-    //BMI calculator
-    double bmiCal(float w, double h){
+    // 
+    // [ BMI calculator ]
+    //
+    double bmiCal(float w, double h)
+    {
         h = h*0.30; //Converting foot to meter 
         return(w/(h*h));
     }
 
-    void fitnessGoal(){
+    void fitnessGoal()
+    {
        System.out.println("Enter your fitness Goal: \n 1 for Weight loss \n 2 for Weight gain  \n 3 for General fitness");
         user_goal = input.nextShort();
 
@@ -81,18 +91,18 @@ public class Main{
                 break;
         }
     }
-public static void main(String st[]){
-    Main main = new Main(); //Decalring object
-
-    main.userinfo();
-    user_bmi = main.bmiCal(user_weight, user_height);
-        System.out.printf("Your BMI is: %.2f", user_bmi);
-
-        System.out.println("\n----Step 2----");
-    main.fitnessGoal();
-
-        System.out.println("\n----Step 3----");
-    main.fitnessLevel();
-}
+    public static void main(String st[])
+    {
+        Main main = new Main();
+        
+        main.userinfo();
+        user_bmi = main.bmiCal(user_weight, user_height);
+        // System.out.printf("Your BMI is: %.2f", user_bmi);
+        
+        // System.out.println("\n----Step 2----");
+        main.fitnessGoal();
+        // System.out.println("\n----Step 3----");
+        main.fitnessLevel();
+    }
 
 }

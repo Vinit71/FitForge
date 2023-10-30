@@ -8,26 +8,21 @@ This is your personal 'virtual' coach, which will ask you some questions related
 
 We are Core Java Developer 
 
-## 🔗 Links
-[![Vinit71](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/Vinit71/)
+#### 🔗 Links
+[![Vinit71](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/Vinit71/) [![MayankDevil](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/MayankDevil/) [![Download](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=download&logoColor=white)](https://github.com/Vinit71/FitForge/archive/refs/heads/main.zip)
 
-[![MayankDevil](https://img.shields.io/badge/l-0A66C2?style=for-the-badge&logo=ko-fin&logoColor=white)](https://github.com/MayankDevil/)
-
-[![Download](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=download&logoColor=white)](https://github.com/Vinit71/FitForge/archive/refs/heads/main.zip)
-
-## 🤔 Features
+#### 🤔 Features
 
 - Plathform Independent
 - Easy to Use
 - Offline Application
 - Free of Cost
 
-## 💬 Tech Stack
+#### 💬 Tech Stack
 
 **Language:** Core Java Language
 
-
-## 🧠 Run Locally
+#### 🧠 Run Locally
 
 Clone the project
 
@@ -53,7 +48,7 @@ Interperat byteCode
   java main
 ```
 
-## 👩‍💻 Work Follow
+#### 👩‍💻 Work Follow
 
 - Calculate user's BMI
 - Asking Some questions to provide personalize results
@@ -63,4 +58,6 @@ Interperat byteCode
 - Total workout days in a weak
 - Provide final workout plan chart
 
-## ⚡️ WARNING
+### ⚡️ WARNING
+
+_this project is at working stage donw use at time_

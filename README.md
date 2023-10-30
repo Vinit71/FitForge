@@ -11,9 +11,9 @@ We are Core Java Developer
 ## 🔗 Links
 [![Vinit71](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/Vinit71/)
 
-[![MayankDevil](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://github.com/MayankDevil/)
+[![MayankDevil](https://img.shields.io/badge/l-0A66C2?style=for-the-badge&logo=ko-fin&logoColor=white)](https://github.com/MayankDevil/)
 
-[![Download](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://github.com/Vinit71/FitForge/archive/refs/heads/main.zip)
+[![Download](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=download&logoColor=white)](https://github.com/Vinit71/FitForge/archive/refs/heads/main.zip)
 
 ## 🤔 Features
 

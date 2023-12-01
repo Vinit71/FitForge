@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main
+class Main
 {
     // Variables
     String user_name;
@@ -92,6 +92,149 @@ public class Main
                 break;
         }
     }
+
+void finalPlan(){
+    if(goal_choice == "Weight loss"){
+        if(level_choice == "Begginer"){
+            String[] exerciseNames = {"Push-ups", "Squats", "Planks"};
+        int[] sets = {3, 4, 2};
+        int[] repetitions = {15, 12, 30};
+        String[] days = {"Monday", "Wednesday", "Friday"};
+
+        // Table header
+        System.out.printf("%-15s%-10s%-15s%-10s\n", "Exercise", "Sets", "Repetitions", "Days");
+
+        // Table data
+        for (int i = 0; i < exerciseNames.length; i++) {
+            System.out.printf("%-15s%-10d%-15d%-10s\n", exerciseNames[i], sets[i], repetitions[i], days[i]);
+        }
+        }
+        else if(level_choice == "Intermediate"){
+            String[] exerciseNames = {"Push-ups", "Squats", "Planks"};
+        int[] sets = {3, 4, 2};
+        int[] repetitions = {15, 12, 30};
+        String[] days = {"Monday", "Wednesday", "Friday"};
+
+        // Table header
+        System.out.printf("%-15s%-10s%-15s%-10s\n", "Exercise", "Sets", "Repetitions", "Days");
+
+        // Table data
+        for (int i = 0; i < exerciseNames.length; i++) {
+            System.out.printf("%-15s%-10d%-15d%-10s\n", exerciseNames[i], sets[i], repetitions[i], days[i]);
+        }
+        }
+        else if(level_choice == "Advance"){
+            String[] exerciseNames = {"Push-ups", "Squats", "Planks"};
+        int[] sets = {3, 4, 2};
+        int[] repetitions = {15, 12, 30};
+        String[] days = {"Monday", "Wednesday", "Friday"};
+
+        // Table header
+        System.out.printf("%-15s%-10s%-15s%-10s\n", "Exercise", "Sets", "Repetitions", "Days");
+
+        // Table data
+        for (int i = 0; i < exerciseNames.length; i++) {
+            System.out.printf("%-15s%-10d%-15d%-10s\n", exerciseNames[i], sets[i], repetitions[i], days[i]);
+        }
+        }
+    }
+
+    else if(goal_choice == "weight gain"){
+        if(level_choice == "Begginer"){
+            String[] exerciseNames = {"Push-ups", "Squats", "Planks"};
+        int[] sets = {3, 4, 2};
+        int[] repetitions = {15, 12, 30};
+        String[] days = {"Monday", "Wednesday", "Friday"};
+
+        // Table header
+        System.out.printf("%-15s%-10s%-15s%-10s\n", "Exercise", "Sets", "Repetitions", "Days");
+
+        // Table data
+        for (int i = 0; i < exerciseNames.length; i++) {
+            System.out.printf("%-15s%-10d%-15d%-10s\n", exerciseNames[i], sets[i], repetitions[i], days[i]);
+        }
+        }
+        else if(level_choice == "Intermediate"){
+            String[] exerciseNames = {"Push-ups", "Squats", "Planks"};
+        int[] sets = {3, 4, 2};
+        int[] repetitions = {15, 12, 30};
+        String[] days = {"Monday", "Wednesday", "Friday"};
+
+        // Table header
+        System.out.printf("%-15s%-10s%-15s%-10s\n", "Exercise", "Sets", "Repetitions", "Days");
+
+        // Table data
+        for (int i = 0; i < exerciseNames.length; i++) {
+            System.out.printf("%-15s%-10d%-15d%-10s\n", exerciseNames[i], sets[i], repetitions[i], days[i]);
+        }
+        }
+        else if(level_choice == "Advance"){
+            String[] exerciseNames = {"Push-ups", "Squats", "Planks"};
+        int[] sets = {3, 4, 2};
+        int[] repetitions = {15, 12, 30};
+        String[] days = {"Monday", "Wednesday", "Friday"};
+
+        // Table header
+        System.out.printf("%-15s%-10s%-15s%-10s\n", "Exercise", "Sets", "Repetitions", "Days");
+
+        // Table data
+        for (int i = 0; i < exerciseNames.length; i++) {
+            System.out.printf("%-15s%-10d%-15d%-10s\n", exerciseNames[i], sets[i], repetitions[i], days[i]);
+        }
+        }
+    }
+
+    else if(goal_choice == "general fitness"){
+        if(level_choice == "Begginer"){
+        String[] exerciseNames = {"Push-ups", "Squats", "Planks"};
+        int[] sets = {3, 4, 2};
+        int[] repetitions = {15, 12, 30};
+        String[] days = {"Monday", "Wednesday", "Friday"};
+
+        // Table header
+        System.out.printf("%-15s%-10s%-15s%-10s\n", "Exercise", "Sets", "Repetitions", "Days");
+
+        // Table data
+        for (int i = 0; i < exerciseNames.length; i++) {
+            System.out.printf("%-15s%-10d%-15d%-10s\n", exerciseNames[i], sets[i], repetitions[i], days[i]);
+        }        
+        }
+        else if(level_choice == "Intermediate"){
+            String[] exerciseNames = {"Push-ups", "Squats", "Planks"};
+        int[] sets = {3, 4, 2};
+        int[] repetitions = {15, 12, 30};
+        String[] days = {"Monday", "Wednesday", "Friday"};
+
+        // Table header
+        System.out.printf("%-15s%-10s%-15s%-10s\n", "Exercise", "Sets", "Repetitions", "Days");
+
+        // Table data
+        for (int i = 0; i < exerciseNames.length; i++) {
+            System.out.printf("%-15s%-10d%-15d%-10s\n", exerciseNames[i], sets[i], repetitions[i], days[i]);
+        }
+        }
+        else if(level_choice == "Advance"){
+            String[] exerciseNames = {"Push-ups", "Squats", "Planks"};
+        int[] sets = {3, 4, 2};
+        int[] repetitions = {15, 12, 30};
+        String[] days = {"Monday", "Wednesday", "Friday"};
+
+        // Table header
+        System.out.printf("%-15s%-10s%-15s%-10s\n", "Exercise", "Sets", "Repetitions", "Days");
+
+        // Table data
+        for (int i = 0; i < exerciseNames.length; i++) {
+            System.out.printf("%-15s%-10d%-15d%-10s\n", exerciseNames[i], sets[i], repetitions[i], days[i]);
+        }
+        }
+        else{
+            System.out.println("nothing");
+        }
+    }
+    else{
+        System.out.println("Nothing");
+    }
+}
 public static void main(String st[]){
     Main main = new Main(); //Decalring object
 
@@ -104,6 +247,8 @@ public static void main(String st[]){
 
         System.out.println("\n----Step 3----");
     main.fitnessLevel();
+        System.out.println("\n----Workout Plan----");
+    main.finalPlan();
 }
 
 }
